@@ -4,12 +4,11 @@ function f1() {
 }
 
 function f2() {
-    const nofid = document.getElementById("first").length;
-    debugger;
+    const nofid = document.getElementById("first").childElementCount;
     console.log(`There are ${nofid} element(s) inside of the first ID.`)
 }
 
 function f3() {
-    const nosid = document.getElementById("second").length;
+    const nosid = document.getElementById("second").childElementCount;
     console.log(`There are ${nosid} element(s) inside of the second ID.`)
 }
